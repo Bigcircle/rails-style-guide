@@ -27,6 +27,25 @@ Some of the advice here is applicable only to Rails 3.1+.
 You can generate a PDF or an HTML copy of this guide using
 [Transmuter](https://github.com/TechnoGate/transmuter).
 
+# Table of Contents
+
+* [Developing Rails applications](#developing-rails-applications)
+    * [Configuration](#configuration)
+    * [Routing](#routing)
+    * [Controllers](#controllers)
+    * [Models](#models)
+    * [Migrations](#migrations)
+    * [Views](#views)
+    * [Assets](#assets)
+    * [Mailers](#mailers)
+    * [Bundler](#bundler)
+    * [Priceless Gems](#priceless-gems)
+    * [Flawed Gems](#flawed-gems)
+    * [Managing processes](#managing-processes)
+* [Testing Rails applications](#testing-rails-applications)
+    * [Cucumber](#cucumber)
+    * [RSpec](#rspec)
+
 # Developing Rails applications
 
 ## Configuration
@@ -264,7 +283,7 @@ There is more than one way to achieve this:
 
 ### ActiveResource
 
-* When the response is in a format different then the existing ones (XML and
+* When the response is in a format different from the existing ones (XML and
 JSON) or some additional parsing of these formats is necessary,
 create your own custom format and use it in the class. The custom format
 should implement the following four methods: `extension`, `mime_type`,
